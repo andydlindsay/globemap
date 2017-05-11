@@ -13,7 +13,7 @@ body {
 }
 
 md-card {
-  width: 60%;
+  width: 85%;
   margin: auto;
   opacity: 0.9;
 }
@@ -32,8 +32,14 @@ md-card-content {
 
 .svg {
   margin: auto;
+  margin-top: 10px;
   padding-left: 16px;
   padding-right: 16px;
+}
+
+svg {
+  border: 2px solid black;
+  background-color: lightsteelblue;
 }
 
 .legend rect {
@@ -72,7 +78,7 @@ div.tooltip {
   /*height: 70px;*/
   padding: 0px 10px;
   font: 12px sans-serif;
-  background: lightsteelblue;
+  background: gray;
   border: 0px;
   border-radius: 8px;
   pointer-events: none;
@@ -93,4 +99,10 @@ div.tooltip {
     fill: #ccc;
     stroke: #fff;
     stroke-width: 2px;
+}
+
+.land {
+  fill: #D7C7AD;
+  stroke: #766951;
+  stroke-width: 1px;
 }
